@@ -27,7 +27,7 @@
                         <div class="col-4">
                           <div class="dropdown-header"> {{child_link.title}}  </div>
                           <div class="dropdown-divider"></div>
-                          {% if child_link.links != blank %}
+                             {% if child_link.links != blank %}
                            {% for grand_child in child_link.links %}
                               <a href="grand_child.url">{{grand_child.title}}</a>
                            {% endfor %}
