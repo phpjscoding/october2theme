@@ -1,1 +1,22 @@
-{}
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "tel": "011-323-29942- 23",
+          "logo_width": 140,
+          "logo_position": "middle-left"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
