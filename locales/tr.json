@@ -45,13 +45,16 @@
     },
     "share": {
       "copy_to_clipboard": "Bağlantıyı kopyala",
+      "share": "Paylaş",
       "share_url": "Bağlantı",
-      "success_message": "Bağlantı panoya kopyalandı",
-      "close": "Paylaşımı kapat"
+      "success_message": "Bağlantı panoya kopyalandı."
     }
   },
+  "date_formats": {
+    "month_year": "%B %Y"
+  },
   "newsletter": {
-    "label": "E-posta",
+    "label": "E-postanız",
     "success": "Abone olduğunuz için teşekkür ederiz",
     "button_label": "Abone ol"
   },
@@ -69,15 +72,14 @@
     "next_slide": "Sağa kaydır",
     "previous_slide": "Sola kaydır",
     "loading": "Yükleniyor...",
-    "of": "/",
-    "skip_to_product_info": "Ürün bilgisine atla",
-    "total_reviews": "toplam değerlendirme",
-    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} yıldız"
+    "of": "of",
+    "skip_to_product_info": "Ürün bilgisine atla"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "read_more_title": "Devamını okuyun: {{ title }}",
+      "read_more": "Devamını okuyun",
       "comments": {
         "one": "{{ count }} yorum",
         "other": "{{ count }} yorum"
@@ -137,57 +139,21 @@
         "open_media": "Medya {{ index }} galeri görünümünde aç",
         "play_model": "3B Görüntüleyici'yi Oynat",
         "play_video": "Videoyu oynat"
-      },
-      "view_full_details": "Tüm ayrıntıları görüntüle",
-      "include_taxes": "Vergi dahildir.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır."
+      }
     },
     "modal": {
       "label": "Medya galerisi"
-    },
-    "facets": {
-      "apply": "Uygula",
-      "clear": "Temizle",
-      "clear_all": "Tümünü temizle",
-      "from": "En düşük",
-      "filter_and_sort": "Filtrele ve sırala",
-      "filter_by_label": "Filtre:",
-      "filter_button": "Filtrele",
-      "filters_selected": {
-        "one": "{{ count }} seçildi",
-        "other": "{{ count }} seçildi"
-      },
-      "max_price": "En yüksek fiyat: {{ price }}",
-      "product_count": {
-        "one": "{{ count }}/{{ product_count }} ürün",
-        "other": "{{ count }}/{{ product_count }} ürün"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} ürün",
-        "other": "{{ count }} ürün"
-      },
-      "reset": "Sıfırla",
-      "sort_button": "Sırala",
-      "sort_by_label": "Sıralama ölçütü:",
-      "to": "En yüksek",
-      "clear_filter": "Filtreyi temizle"
     }
   },
   "templates": {
     "search": {
       "no_results": "\"{{ terms }}\" için sonuç bulunamadı. Yazım hatası olmadığını doğrulayın veya farklı bir kelime ya da ifade kullanın.",
       "results_with_count": {
-        "one": "{{ count }} sonuç",
-        "other": "{{ count }} sonuç"
-      },
-      "title": "Arama sonuçları",
-      "page": "Sayfa",
-      "products": "Ürünler",
-      "search_for": "\"{{ terms }}\" için arama yap",
-      "results_with_count_and_term": {
         "one": "\"{{ terms }}\" için {{ count }} sonuç bulundu",
         "other": "\"{{ terms }}\" için {{ count }} sonuç bulundu"
-      }
+      },
+      "title": "Arama sonuçları",
+      "page": "Sayfa"
     },
     "cart": {
       "cart": "Sepet"
@@ -238,14 +204,11 @@
         "total": "Toplam",
         "quantity": "Adet"
       },
-      "update": "Güncelle",
-      "login": {
-        "title": "Hesabınız var mı?",
-        "paragraph_html": "Daha hızlı ödeme yapmak için <a href=\"{{ link }}\" class=\"link underlined-link\">oturum açın</a>."
-      }
+      "update": "Güncelle"
     },
     "footer": {
-      "payment": "Ödeme yöntemleri"
+      "payment": "Ödeme yöntemleri",
+      "social_placeholder": "Bizi sosyal medyadan takip edin!"
     },
     "featured_blog": {
       "view_all": "Tümünü görüntüle",
@@ -261,11 +224,28 @@
     },
     "collection_template": {
       "title": "Koleksiyon",
+      "sort_by_label": "Sıralama ölçütü:",
+      "sort_button": "Sırala",
+      "product_count": {
+        "one": "{{ count }} üründen {{ product_count }} tanesi gösteriliyor",
+        "other": "{{ count }} üründen {{ product_count }} tanesi gösteriliyor"
+      },
       "empty": "Ürün bulunamadı",
-      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizle</a>"
-    },
-    "video": {
-      "load_video": "Videoyu yükle: {{ description }}"
+      "apply": "Uygula",
+      "clear": "Temizle",
+      "clear_all": "Tümünü temizle",
+      "from": "Kimden",
+      "filter_and_sort": "Filtrele ve sırala",
+      "filter_by_label": "Filtreleme ölçütü:",
+      "filter_button": "Filtrele",
+      "max_price": "En yüksek fiyat: {{ price }}",
+      "reset": "Sıfırla",
+      "to": "/",
+      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizle</a>",
+      "filters_selected": {
+        "one": "{{ count }} seçildi",
+        "other": "{{ count }} seçildi"
+      }
     }
   },
   "localization": {

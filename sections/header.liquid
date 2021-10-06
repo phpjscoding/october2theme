@@ -1,10 +1,14 @@
+
+
+
+
   <section class="top-header">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-xs-12 col-sm-4">
           <div class="contact-number">
             <i class="fa fa-phone"></i>
-            <span>0129- 12323-123123</span>
+            <span> {{section.settings.tel}}</span>
           </div>
         </div>
 
@@ -17,7 +21,23 @@
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40" font-family="AustinBold, Austin" font-weight="bold">
                   <g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
                     <text id="fashion">
-                      <tspan x="108.94" y="325">FASHION</tspan>
+                      <tspan x="108.94" y="325">
+                        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+                          {%- if section.settings.logo != blank -%}
+                            {%- assign image_size = section.settings.logo_width | append: 'x' -%}
+                            <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                              src="{{ section.settings.logo | img_url: image_size }}"
+                              loading="lazy"
+                              class="header__heading-logo"
+                              width="{{ section.settings.logo.width }}"
+                              height="{{ section.settings.logo.height }}"
+                              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+                            >
+                          {%- else -%}
+                            <span class="h2">{{ shop.name }}</span>
+                          {%- endif -%}
+                        </a>
+                      </tspan>
                     </text>
                   </g>
                 </g>
@@ -41,20 +61,49 @@
 
 {% schema %}
 {
-  "name":"Main-menu",
-  "tag":"div",
-
-  "settings": [
-      
-  {
-        
-  "type": "text",
-        
-  "id": "header",
-        
-  "label": "Header"
-      
-  }
-    ]
+  "name":"Top header",
+  "settings":[
+    {
+      "type":"text",
+      "id":"tel",
+      "label":"Phone number",
+      "default":"012-084-300-745"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.settings.logo.label"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 50,
+      "max": 250,
+      "step": 10,
+      "default": 100,
+      "unit": "t:sections.header.settings.logo_width.unit",
+      "label": "t:sections.header.settings.logo_width.label"
+    },
+    {
+      "type": "select",
+      "id": "logo_position",
+      "options": [
+        {
+          "value": "middle-left",
+          "label": "Middle left"
+        },
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        }
+      ],
+      "default": "top-center",
+      "label": "default"
+    }
+  ]
 }
 {% endschema %}

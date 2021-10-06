@@ -33,18 +33,6 @@
         },
         "colors_background_2": {
           "label": "Sfondo 2"
-        },
-        "gradient_accent_1": {
-          "label": "Gradiente Elemento in risalto 1"
-        },
-        "gradient_accent_2": {
-          "label": "Gradiente Elemento in risalto 2"
-        },
-        "gradient_background_1": {
-          "label": "Gradiente Sfondo 1"
-        },
-        "gradient_background_2": {
-          "label": "Gradiente Sfondo 2"
         }
       }
     },
@@ -53,7 +41,7 @@
       "settings": {
         "type_header_font": {
           "label": "Font",
-          "info": "La selezione di un font diverso può influenzare la velocità del tuo negozio. [Maggiori informazioni sui font di sistema.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "La selezione di un font diverso può influenzare la velocità del tuo negozio. [Scopri di più sui font di sistema.](https://help.shopify.com/it/manual/online-store/store-speed/improving-speed#font)"
         },
         "header__1": {
           "content": "Titoli"
@@ -63,7 +51,7 @@
         },
         "type_body_font": {
           "label": "Font",
-          "info": "La selezione di un font diverso può influenzare la velocità del tuo negozio. [Maggiori informazioni sui font di sistema.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "La selezione di un font diverso può influenzare la velocità del tuo negozio. [Scopri di più sui font di sistema.](https://help.shopify.com/it/manual/online-store/store-speed/improving-speed#font)"
         }
       }
     },
@@ -117,6 +105,21 @@
     "social-media": {
       "name": "Social media",
       "settings": {
+        "share_facebook": {
+          "label": "Condividi su Facebook"
+        },
+        "share_twitter": {
+          "label": "Twitta su Twitter"
+        },
+        "share_pinterest": {
+          "label": "Aggiungi un pin su Pinterest"
+        },
+        "header__1": {
+          "content": "Opzioni di condivisione sui social"
+        },
+        "header__2": {
+          "content": "Account social"
+        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https://twitter.com/shopify"
@@ -152,9 +155,6 @@
         "social_vimeo_link": {
           "label": "Vimeo",
           "info": "https://vimeo.com/shopify"
-        },
-        "header": {
-          "content": "Account social"
         }
       }
     },
@@ -166,48 +166,6 @@
           "label": "Mostra i codici valuta"
         },
         "paragraph": "I prezzi del carrello e del check-out mostrano sempre i codici valuta. Esempio: 1,00 EUR."
-      }
-    },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Immagine favicon",
-          "info": "Verrà ridimensionata a 32 x 32 pixel"
-        }
-      }
-    },
-    "layout": {
-      "name": "Layout",
-      "settings": {
-        "page_width": {
-          "label": "Larghezza massima",
-          "options__1": {
-            "label": "1200px"
-          },
-          "options__2": {
-            "label": "1600px"
-          }
-        }
-      }
-    },
-    "search_input": {
-      "name": "Ricerca input",
-      "settings": {
-        "header": {
-          "content": "Suggerimenti sui prodotti"
-        },
-        "predictive_search_enabled": {
-          "label": "Abilita suggerimenti sui prodotti"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Mostra fornitore",
-          "info": "Visibile quando i suggerimenti sui prodotti sono abilitati."
-        },
-        "predictive_search_show_price": {
-          "label": "Mostra prezzo",
-          "info": "Visibile quando i suggerimenti sui prodotti sono abilitati."
-        }
       }
     }
   },
@@ -280,7 +238,7 @@
             },
             "image_padding": {
               "label": "Aggiungi spaziatura immagine",
-              "info": "Se non desideri che l'immagini venga ritagliata, seleziona una spaziatura."
+              "info": "Se non desideri che le immagini vengano ritagliate, seleziona una spaziatura per l'immagine."
             },
             "color_scheme": {
               "options__1": {
@@ -329,7 +287,7 @@
             },
             "image_padding": {
               "label": "Aggiungi spaziatura immagine",
-              "info": "Se non desideri che l'immagini venga ritagliata, seleziona una spaziatura."
+              "info": "Se non desideri che le immagini vengano ritagliate, seleziona una spaziatura per l'immagine."
             },
             "color_scheme": {
               "options__1": {
@@ -358,17 +316,13 @@
               "label": "Immagine di copertina"
             },
             "video_url": {
-              "label": "URL",
-              "info": "Se la sezione contiene altri blocchi, il video viene riprodotto in un pop-up.",
-              "placeholder": "Utilizza un URL YouTube o Vimeo"
+              "label": "Link",
+              "info": "Se la sezione contiene altri blocchi, i video vengono riprodotti in un pop-up.",
+              "placeholder": "Utilizza un link YouTube o Vimeo"
             },
             "image_padding": {
               "label": "Aggiungi spaziatura immagine",
-              "info": "Se non desideri che l'immagine di copertina venga ritagliata, seleziona una spaziatura."
-            },
-            "description": {
-              "label": "Testo alternativo del video",
-              "info": "Descrivi il video per renderlo accessibile ai clienti che utilizzano i lettori di schermo."
+              "info": "Se non desideri che le immagini vengano ritagliate, seleziona una spaziatura per l'immagine."
             }
           }
         }
@@ -394,7 +348,7 @@
           "options__3": {
             "label": "Quadrate"
           },
-          "info": "Aggiungi immagini modificando le collezioni. [Maggiori informazioni](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Per aggiungere immagini, [modifica le collezioni](https://help.shopify.com/it/manual/products/collections)"
         },
         "color_scheme": {
           "options__1": {
@@ -415,7 +369,7 @@
           "label": "Schema di colori"
         },
         "swipe_on_mobile": {
-          "label": "Abilita scorrimento su dispositivo mobile"
+          "label": "Abilita la banda magnetica su cellulare"
         },
         "image_padding": {
           "label": "Aggiungi spaziatura immagine"
@@ -448,8 +402,7 @@
       "name": "Liquid personalizzato",
       "settings": {
         "custom_liquid": {
-          "label": "Liquid personalizzato",
-          "info": "Aggiungi snippet di app o altro codice Liquid per creare personalizzazioni avanzate."
+          "label": "Liquid personalizzato"
         }
       },
       "presets": {
@@ -473,16 +426,29 @@
         },
         "show_image": {
           "label": "Mostra immagine in evidenza",
-          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 2:3. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 2:3."
         },
         "soft_background": {
           "label": "Mostra sfondo secondario"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titolo",
+          "settings": {
+            "show_date": {
+              "label": "Mostra data"
+            },
+            "show_author": {
+              "label": "Mostra autore"
+            }
+          }
         },
-        "show_date": {
-          "label": "Mostra data"
+        "summary": {
+          "name": "Riassunto"
         },
-        "show_author": {
-          "label": "Mostra autore"
+        "link": {
+          "name": "Link"
         }
       },
       "presets": {
@@ -505,7 +471,7 @@
           "label": "Abilita il pulsante \"Visualizza tutto\" se la collezione include più prodotti di quelli mostrati"
         },
         "swipe_on_mobile": {
-          "label": "Abilita scorrimento su dispositivo mobile"
+          "label": "Abilita la banda magnetica su cellulare"
         },
         "header": {
           "content": "Scheda prodotto"
@@ -526,17 +492,13 @@
           "label": "Mostra la seconda immagine al passaggio del mouse"
         },
         "add_image_padding": {
-          "label": "Aggiungi spaziatura immagine"
+          "label": "Aggiungi spaziatura"
         },
         "show_vendor": {
           "label": "Mostra fornitore"
         },
         "show_image_outline": {
-          "label": "Mostra bordo immagine"
-        },
-        "show_rating": {
-          "label": "Mostra valutazione del prodotto",
-          "info": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+          "label": "Mostra contorno dell'immagine"
         }
       },
       "presets": {
@@ -598,7 +560,7 @@
         },
         "header__1": {
           "content": "Iscrizione alla newsletter",
-          "info": "Iscritti aggiunti automaticamente all'elenco dei clienti che \"hanno accettato le comunicazioni di marketing\". [Maggiori informazioni](https://help.shopify.com/en/manual/customers/manage-customers)"
+          "info": "Iscritti aggiunti all'[elenco dei clienti che accettano le comunicazioni di marketing.](https://help.shopify.com/it/manual/customers/manage-customers)"
         },
         "header__2": {
           "content": "Icone dei social media",
@@ -659,29 +621,11 @@
           "label": "Menu"
         },
         "show_line_separator": {
-          "label": "Mostra linea di separazione"
+          "label": "Mostra linea separatore"
         },
         "enable_sticky_header": {
           "label": "Abilita header fisso",
           "info": "L'header viene mostrato sullo schermo quando i clienti scorrono verso l'alto."
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Elemento in risalto 1"
-          },
-          "options__2": {
-            "label": "Elemento in risalto 2"
-          },
-          "options__3": {
-            "label": "Sfondo 1"
-          },
-          "options__4": {
-            "label": "Sfondo 2"
-          },
-          "options__5": {
-            "label": "Inverso"
-          },
-          "label": "Schema di colori"
         }
       }
     },
@@ -722,26 +666,13 @@
           "options__5": {
             "label": "Inverso"
           },
-          "label": "Schema di colori",
-          "info": "Visibile quando è visualizzata la casella di testo"
+          "label": "Schema di colori"
         },
         "stack_images_on_mobile": {
           "label": "Elenca immagini su dispositivo mobile"
         },
         "adapt_height_first_image": {
           "label": "Adatta l'altezza della sezione alle dimensioni della prima immagine"
-        },
-        "show_text_box": {
-          "label": "Mostra casella di testo sul desktop"
-        },
-        "image_overlay_opacity": {
-          "label": "Opacità della sovrapposizione immagine"
-        },
-        "header": {
-          "content": "Layout dispositivo mobile"
-        },
-        "show_text_below": {
-          "label": "Mostra testo sotto le immagini"
         }
       },
       "blocks": {
@@ -750,15 +681,6 @@
           "settings": {
             "heading": {
               "label": "Titolo"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Medio"
-              },
-              "options__2": {
-                "label": "Grande"
-              },
-              "label": "Dimensione font titolo"
             }
           }
         },
@@ -893,15 +815,12 @@
                 "label": "Adatta all'immagine"
               },
               "options__2": {
-                "label": "Piccola"
-              },
-              "options__3": {
                 "label": "Media"
               },
-              "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 16:9. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
-              "options__4": {
+              "options__3": {
                 "label": "Grande"
-              }
+              },
+              "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 16:9."
             }
           }
         },
@@ -919,19 +838,8 @@
         "content": {
           "name": "Contenuto"
         },
-        "share": {
-          "name": "Condividi",
-          "settings": {
-            "featured_image_info": {
-              "content": "Se includi un link in post sui social media, l'immagine in evidenza della pagina verrà mostrata come immagine di anteprima. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
-            },
-            "title_info": {
-              "content": "Insieme all'immagine di anteprima sono inclusi un titolo e una descrizione del negozio. [Maggiori informazioni](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
-            },
-            "text": {
-              "label": "Testo"
-            }
-          }
+        "social_sharing": {
+          "name": "Pulsanti per la condivisione sui social"
         }
       }
     },
@@ -943,41 +851,29 @@
         },
         "show_image": {
           "label": "Mostra immagine in evidenza",
-          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 2:3. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 2:3."
         },
         "paragraph": {
-          "content": "Modifica i riassunti modificando gli articoli del blog. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
-        },
-        "show_date": {
-          "label": "Mostra data"
-        },
-        "show_author": {
-          "label": "Mostra autore"
-        },
-        "layout": {
-          "label": "Layout su schermi grandi",
-          "options__1": {
-            "label": "Griglia"
-          },
-          "options__2": {
-            "label": "Collage"
+          "content": "Per modificare i riassunti, modifica gli [articoli del blog.](https://help.shopify.com/it/manual/online-store/blogs/writing-blogs#mostra-il-riassunto-di-un-articolo-del-blog)"
+        }
+      },
+      "blocks": {
+        "title": {
+          "name": "Titolo",
+          "settings": {
+            "show_date": {
+              "label": "Mostra data"
+            },
+            "show_author": {
+              "label": "Mostra autore"
+            }
           }
         },
-        "image_height": {
-          "label": "Altezza immagine in evidenza",
-          "options__1": {
-            "label": "Adatta all'immagine"
-          },
-          "options__2": {
-            "label": "Piccola"
-          },
-          "options__3": {
-            "label": "Media"
-          },
-          "options__4": {
-            "label": "Grande"
-          },
-          "info": "Per un risultato ottimale, utilizza un'immagine con proporzioni 2:3. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        "summary": {
+          "name": "Riassunto"
+        },
+        "link": {
+          "name": "Link"
         }
       }
     },
@@ -1009,14 +905,14 @@
       "name": "Banner collezione",
       "settings": {
         "paragraph": {
-          "content": "Aggiungi una descrizione o un'immagine modificando la collezione. [Maggiori informazioni](https://help.shopify.com/en/manual/products/collections/collection-layout)"
+          "content": "Per modificare le descrizioni o le immagini delle collezioni, [modifica le collezioni.](/admin/collections)"
         },
         "show_collection_description": {
           "label": "Mostra descrizione collezione"
         },
         "show_collection_image": {
           "label": "Mostra immagine collezione",
-          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 16:9. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Per un risultato ottimale utilizza un'immagine con proporzioni 16:9."
         }
       }
     },
@@ -1065,14 +961,7 @@
           "content": "Scheda prodotto"
         },
         "show_image_outline": {
-          "label": "Mostra bordo immagine"
-        },
-        "collapse_on_larger_devices": {
-          "label": "Comprimi sugli schermi più grandi"
-        },
-        "show_rating": {
-          "label": "Mostra valutazione del prodotto",
-          "info": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+          "label": "Mostra contorno dell'immagine"
         }
       }
     },
@@ -1085,16 +974,16 @@
         "sort": {
           "label": "Ordina le collezioni per:",
           "options__1": {
-            "label": "In ordine alfabetico, A-Z"
+            "label": "In ordine alfabetico, A - Z"
           },
           "options__2": {
-            "label": "In ordine alfabetico, Z-A"
+            "label": "In ordine alfabetico, Z - A"
           },
           "options__3": {
-            "label": "Data, da più a meno recente"
+            "label": "Data, dal più recente al più vecchio"
           },
           "options__4": {
-            "label": "Data, da meno a più recente"
+            "label": "Data, dal più vecchio al più recente"
           },
           "options__5": {
             "label": "Conteggio prodotti decrescente"
@@ -1114,7 +1003,7 @@
           "options__3": {
             "label": "Quadrate"
           },
-          "info": "Aggiungi immagini modificando le collezioni. [Maggiori informazioni](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Per aggiungere immagini, [modifica le collezioni](https://help.shopify.com/it/manual/products/collections)"
         },
         "color_scheme": {
           "options__1": {
@@ -1259,14 +1148,15 @@
         "share": {
           "name": "Condividi",
           "settings": {
+            "header": {
+              "content": "Condividi",
+              "info": "Quando pubblichi sui social media un link del tuo negozio online, viene mostrata l'immagine in evidenza della pagina. [Maggiori informazioni](https://help.shopify.com/it/manual/online-store/images/showing-social-media-thumbnail-images). Imposta un titolo e una descrizione per il tuo negozio online. [Maggiori informazioni](https://help.shopify.com/it/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+            },
             "featured_image_info": {
-              "content": "Se includi un link in post sui social media, l'immagine in evidenza della pagina verrà mostrata come immagine di anteprima. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Se includi un link in post sui social media, l'immagine in evidenza della pagina verrà mostrata come immagine di anteprima. [Maggiori informazioni](https://help.shopify.com/it/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Insieme all'immagine di anteprima sono inclusi un titolo e una descrizione del negozio. [Maggiori informazioni](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
-            },
-            "text": {
-              "label": "Testo"
+              "content": "Insieme all'immagine di anteprima sono inclusi un titolo e una descrizione del negozio. [Maggiori informazioni](https://help.shopify.com/it/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
         },
@@ -1370,38 +1260,18 @@
               "label": "Pagina"
             }
           }
-        },
-        "custom_liquid": {
-          "name": "Liquid personalizzato",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizzato",
-              "info": "Aggiungi snippet di app o altro codice Liquid per creare personalizzazioni avanzate."
-            }
-          }
-        },
-        "rating": {
-          "name": "Valutazione del prodotto",
-          "settings": {
-            "paragraph": {
-              "content": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
-            }
-          }
         }
       },
       "settings": {
         "header": {
           "content": "Contenuti multimediali",
-          "info": "Maggiori informazioni sui [tipi di contenuti multimediali](https://help.shopify.com/manual/products/product-media)."
+          "info": "Scopri di più sui [tipi di media](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_video_looping": {
           "label": "Abilita la riproduzione in loop dei video"
         },
         "enable_sticky_info": {
           "label": "Abilita le informazioni di prodotto fisse su schermi grandi"
-        },
-        "hide_variants": {
-          "label": "Nascondi i contenuti multimediali delle altre varianti dopo averne selezionata una"
         }
       }
     },
@@ -1442,11 +1312,7 @@
           "label": "Mostra autore"
         },
         "show_image_outline": {
-          "label": "Mostra bordo immagine"
-        },
-        "show_rating": {
-          "label": "Mostra valutazione del prodotto",
-          "info": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+          "label": "Mostra contorno dell'immagine"
         }
       }
     },
@@ -1511,7 +1377,7 @@
           "label": "Link pulsante"
         },
         "swipe_on_mobile": {
-          "label": "Abilita scorrimento su dispositivo mobile"
+          "label": "Abilita la banda magnetica su cellulare"
         }
       },
       "blocks": {
@@ -1559,7 +1425,7 @@
           "label": "Crea sezione a larghezza intera"
         },
         "paragraph": {
-          "content": "Ogni abbonamento email crea un account cliente. [Maggiori informazioni](https://help.shopify.com/en/manual/customers)"
+          "content": "Quando i clienti si iscrivono alla mailing list vengono creati account cliente. [Maggiori informazioni](https://help.shopify.com/it/manual/customers)"
         }
       },
       "blocks": {
@@ -1601,8 +1467,15 @@
     "product-recommendations": {
       "name": "Raccomandazioni sui prodotti",
       "settings": {
+        "header": {
+          "info": "Le raccomandazioni dinamiche utilizzano i dati di ordini e prodotti per cambiare e migliorare nel tempo. [Maggiori informazioni](https://shopify.dev/tutorials/develop-theme-recommended-products)"
+        },
         "heading": {
           "label": "Titolo"
+        },
+        "header__1": {
+          "content": "Raccomandazioni sui prodotti",
+          "info": "Le raccomandazioni dinamiche utilizzano i dati di ordini e prodotti per cambiare e migliorare nel tempo. [Maggiori informazioni](https://shopify.dev/tutorials/develop-theme-recommended-products)"
         },
         "header__2": {
           "content": "Scheda prodotto"
@@ -1629,14 +1502,10 @@
           "label": "Mostra fornitore"
         },
         "paragraph__1": {
-          "content": "Le raccomandazioni dinamiche utilizzano i dati di ordini e prodotti per cambiare e migliorare nel tempo. [Maggiori informazioni](https://help.shopify.com/en/themes/development/recommended-products)"
+          "content": "Le raccomandazioni dinamiche utilizzano i dati di ordini e prodotti per cambiare e migliorare nel tempo. [Maggiori informazioni](https://shopify.dev/tutorials/develop-theme-recommended-products)"
         },
         "show_image_outline": {
-          "label": "Mostra bordo immagine"
-        },
-        "show_rating": {
-          "label": "Mostra valutazione del prodotto",
-          "info": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+          "label": "Mostra contorno dell'immagine"
         }
       }
     },
@@ -1679,10 +1548,7 @@
               "options__2": {
                 "label": "Media"
               },
-              "label": "Dimensione font titolo",
-              "options__3": {
-                "label": "Grande"
-              }
+              "label": "Dimensione font titolo"
             }
           }
         },
@@ -1722,147 +1588,6 @@
       },
       "presets": {
         "name": "App"
-      }
-    },
-    "video": {
-      "name": "Video",
-      "settings": {
-        "heading": {
-          "label": "Titolo"
-        },
-        "cover_image": {
-          "label": "Immagine di copertina"
-        },
-        "video_url": {
-          "label": "URL",
-          "placeholder": "Utilizza un URL YouTube o Vimeo",
-          "info": "Il video viene riprodotto nella pagina."
-        },
-        "description": {
-          "label": "Testo alternativo del video",
-          "info": "Descrivi il video per renderlo accessibile ai clienti che utilizzano i lettori di schermo."
-        },
-        "image_padding": {
-          "label": "Aggiungi spaziatura immagine",
-          "info": "Se non desideri che l'immagine di copertina venga ritagliata, seleziona una spaziatura per l'immagine."
-        },
-        "full_width": {
-          "label": "Rendi sezione a larghezza intera"
-        }
-      },
-      "presets": {
-        "name": "Video"
-      }
-    },
-    "featured-product": {
-      "name": "Sezione \"prodotto in primo piano\"",
-      "blocks": {
-        "text": {
-          "name": "Testo",
-          "settings": {
-            "text": {
-              "label": "Testo"
-            },
-            "text_style": {
-              "label": "Stile del testo",
-              "options__1": {
-                "label": "Testo"
-              },
-              "options__2": {
-                "label": "Sottotitolo"
-              },
-              "options__3": {
-                "label": "Maiuscolo"
-              }
-            }
-          }
-        },
-        "title": {
-          "name": "Titolo"
-        },
-        "price": {
-          "name": "Prezzo"
-        },
-        "quantity_selector": {
-          "name": "Selettore quantità"
-        },
-        "variant_picker": {
-          "name": "Selettore di variante",
-          "settings": {
-            "picker_type": {
-              "label": "Tipo",
-              "options__1": {
-                "label": "Menu a discesa"
-              },
-              "options__2": {
-                "label": "Pulsante"
-              }
-            }
-          }
-        },
-        "buy_buttons": {
-          "name": "Buy button",
-          "settings": {
-            "show_dynamic_checkout": {
-              "label": "Mostra pulsanti di check-out dinamico",
-              "info": "Utilizzando i metodi di pagamento disponibili sul tuo negozio, i clienti vedranno la propria opzione preferita, ad esempio PayPal o Apple Pay. [Maggiori informazioni](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
-            }
-          }
-        },
-        "description": {
-          "name": "Descrizione"
-        },
-        "share": {
-          "name": "Condividi",
-          "settings": {
-            "featured_image_info": {
-              "content": "Se includi un link nei post sui social media, l'immagine in evidenza della pagina verrà mostrata come immagine di anteprima. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
-            },
-            "title_info": {
-              "content": "Insieme all'immagine di anteprima sono inclusi un titolo e una descrizione del negozio. [Maggiori informazioni](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
-            },
-            "text": {
-              "label": "Testo"
-            }
-          }
-        },
-        "custom_liquid": {
-          "name": "Liquid personalizzato",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizzato"
-            }
-          }
-        },
-        "rating": {
-          "name": "Valutazione del prodotto",
-          "settings": {
-            "paragraph": {
-              "content": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
-            }
-          }
-        }
-      },
-      "settings": {
-        "product": {
-          "label": "Prodotto"
-        },
-        "secondary_background": {
-          "label": "Mostra sfondo secondario"
-        },
-        "header": {
-          "content": "Contenuti multimediali",
-          "info": "Maggiori informazioni sui [tipi di media](https://help.shopify.com/manual/products/product-media)"
-        },
-        "enable_video_looping": {
-          "label": "Abilita la riproduzione in loop dei video"
-        },
-        "hide_variants": {
-          "label": "Nascondi contenuti multimediali delle varianti non selezionate sul desktop"
-        }
-      },
-      "presets": {
-        "name": "Sezione \"prodotto in primo piano\""
       }
     }
   }
