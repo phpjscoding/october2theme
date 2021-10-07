@@ -8,7 +8,9 @@
     <div class="carousel-inner">
       
        {% for block in section.blocks %}
-         <div class="carousel-item active">
+         <div class="carousel-item {% if forloop.first == true %}
+           active
+         {% endif %} ">
            <img class="d-block w-100" src="{{ block.settings.image | img_url: '2000x' }}">
          </div>
        {% endfor %}
@@ -38,16 +40,7 @@
   "name": "banner image",
   
   "settings": [
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "image one "
-    },
-    {
-      "type": "image_picker",
-      "id": "image_2",
-      "label": "image two"
-    }
+    
     ],
 
     
