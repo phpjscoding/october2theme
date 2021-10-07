@@ -19,15 +19,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
           }
+        },
+        "ba9b2b9e-97de-4db8-b497-88d3444ad518": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fall-vegetable-box.jpg"
+          }
         }
       },
       "block_order": [
         "5ec4ecb6-fd5c-497a-a124-bb02afeee8d0",
-        "8333e516-7539-4e80-b70e-8799faaa6383"
+        "8333e516-7539-4e80-b70e-8799faaa6383",
+        "ba9b2b9e-97de-4db8-b497-88d3444ad518"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "image_2": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg"
       }
     }
   },
