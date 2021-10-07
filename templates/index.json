@@ -1,5 +1,10 @@
 {
   "sections": {
+
+     "product_category":{
+      "type":"product-category"
+     },
+
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -26,7 +31,12 @@
       }
     }
   },
+
+
+
   "order": [
-    "image_banner"
+    "image_banner",
+    "product_category"
+
   ]
 }

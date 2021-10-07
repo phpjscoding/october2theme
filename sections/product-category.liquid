@@ -1,0 +1,181 @@
+<section class="product-category">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title text-center">
+            <h2>{{section.settings.title}}</h2>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="category-box">
+            <a href="{{section.settings.product_link_1}}">
+              <img src="{{section.settings.product_image_1 | img_url:'400x'}} " alt="{{section.settings.product_title_1 }}">
+              <div class="content">
+                <h3>{{section.settings.product_title_1 }}</h3>
+                <p>{{section.settings.product_subtitle_1 }}</p>
+              </div>
+            </a>  
+          </div>
+          <div class="category-box">
+            <a href="{{section.settings.product_link_2}}">
+              <img src="{{section.settings.product_image_2 | img_url:'400x'}}" alt="">
+              <div class="content">
+                <h3>{{section.settings.product_title_2 }}</h3>
+                <p>{{section.settings.product_subtitle_2 }}</p>
+              </div>
+            </a>  
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="category-box category-box-2">
+            <a href="{{section.settings.product_link_3}}">
+              <img src="{{section.settings.product_image_3 | img_url:'400x'}}" alt="">
+              <div class="content">
+                <h3>{{section.settings.product_title_3 }}</h3>
+                <p>{{section.settings.product_subtitle_3 }}</p>
+              </div>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  {% style %}
+
+   .content h3{
+    color: {{section.settings.title_color}}!important;
+   }
+   .content p{
+    color: {{section.settings.subtitle_color}}!important;
+   }
+
+  {% endstyle %}
+
+
+  {%schema%}
+  {
+    "name":"Product category",
+     "settings":[
+     {
+  
+"type": "color",
+  
+"id": "title_color",
+  
+"label": "Title color",
+  
+"default": "#000000"
+},
+ {
+  
+"type": "color",
+  
+"id": "subtitle_color",
+  
+"label": "Title color",
+  
+"default": "#000000"
+},
+
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"Product category "
+      },
+
+
+
+      {
+        "type":"url",
+         "id":"product_link_1",
+         "label":"Product link 1"
+      },
+      {
+        "type":"image_picker",
+        "id":"product_image_1",
+        "label":"Product image 1"
+      },
+      {
+        "type":"text",
+        "id":"product_title_1",
+        "label":"Product title",
+        "default":"Product title demo "
+      },
+
+      {
+        "type":"text",
+        "id":"product_subtitle_1",
+        "label":"Sub title",
+        "default":"Product sub title demo "
+      },
+
+
+
+
+
+
+      {
+        "type":"url",
+         "id":"product_link_2",
+         "label":"Product link 2"
+      },
+      {
+        "type":"image_picker",
+        "id":"product_image_2",
+        "label":"Product image 2"
+      },
+      {
+        "type":"text",
+        "id":"product_title_2",
+        "label":"Product title",
+        "default":"Product title demo "
+      },
+      {
+        "type":"text",
+        "id":"product_subtitle_2",
+        "label":"Sub title",
+        "default":"Product sub title demo "
+      },
+
+
+
+
+
+
+
+
+      {
+        "type":"url",
+         "id":"product_link_3",
+         "label":"Product link 3"
+      },
+      {
+        "type":"image_picker",
+        "id":"product_image_3",
+        "label":"Product image 3"
+      },
+      {
+        "type":"text",
+        "id":"product_title_3",
+        "label":"Product title",
+        "default":"Product title demo "
+      },
+      {
+        "type":"text",
+        "id":"product_subtitle_3",
+        "label":"Sub title",
+        "default":"Product sub title demo "
+      }
+
+
+
+
+
+     ]
+  }
+  {%endschema%}
