@@ -4,6 +4,9 @@
      "product_category":{
       "type":"product-category"
      },
+     "trending_products":{
+      "type":"trending-products"
+     },
 
     "image_banner": {
       "type": "image-banner",
@@ -41,7 +44,8 @@
 
   "order": [
     "image_banner",
-    "product_category"
+    "product_category",
+    "trending_products"
 
   ]
 }

@@ -1,0 +1,85 @@
+<section class="products section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title text-center">
+          <h2>Trending Products</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        {% assign collection = collections[section.settings.featured_collection]%}
+
+        {% for product in collection.products limit:section.settings.cols %}
+          <div class="col-md-4">
+            <div class="product-item">
+              <div class="product-thumb">
+                <span class="bage">Sale</span>
+                <img class="img-responsive" src="images/product-1.jpg" alt="product-img">
+                <div class="preview-meta">
+                  <ul>
+                    <li>
+                      <a href="product-single.html"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-heart-o"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-content">
+                <h4><a href="product-single.html">Reef Boardsport</a></h4>
+                <p class="price">$200</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{%schema%}
+{
+  "name":"Trending products",
+   
+    "settings":[
+ {
+  
+"type": "collection",
+  
+"id": "featured_collection",
+  
+"label": "Featured collection"
+}
+,
+ {
+   
+ "type": "range",
+   
+ "id": "cols",
+   
+ "min": 3,
+   
+ "max": 9,   
+   
+ "step": 1,
+   
+ "label": "Products cols",
+   
+ "default": 3
+ }
+
+
+    ]
+}
+{%endschema%}
