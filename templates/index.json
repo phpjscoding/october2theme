@@ -1,16 +1,20 @@
 {
   "sections": {
-
-     "product_category":{
-      "type":"product-category"
-     },
-     "news_letter":{
-      "type":"news-letter"
-     },
-     "trending_products":{
-      "type":"trending-products"
-     },
-
+    "product_category": {
+      "type": "product-category",
+      "settings": {
+      }
+    },
+    "news_letter": {
+      "type": "news-letter",
+      "settings": {
+      }
+    },
+    "trending_products": {
+      "type": "trending-products",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -42,14 +46,10 @@
       }
     }
   },
-
-
-
   "order": [
     "image_banner",
     "product_category",
     "trending_products",
     "news_letter"
-
   ]
 }
