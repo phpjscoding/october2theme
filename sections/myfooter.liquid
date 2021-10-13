@@ -1,0 +1,106 @@
+<footer class="footer section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="social-media">
+
+           
+           {% if section.settings.facebook %}
+             <li>
+               <a href=" {{section.settings.facebook}} ">
+                 <i class="fa fa-facebook f"></i>
+               </a>
+             </li>
+           {% endif %}
+
+           {% if sections.settings.insta %}
+             <li>
+               <a href="{{section.settings.insta}}">
+                 <i class="fa fa-instagram"></i>
+               </a>
+             </li>
+
+           {% endif %}
+
+
+           {% if section.settings.twitter %}
+              <li>
+              <a href="{{section.settings.twitter}}">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+           {% endif %}
+
+           {% if section.settings.pin %}
+             <li>
+              <a href="{{section.settings.pin}}">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </li>
+
+           {% endif %}
+
+               
+           
+          
+          </ul>
+          <ul class="footer-menu">
+            <li>
+              <a href="">Contact</a>
+            </li>
+            <li>
+              <a href="">SHIPPING</a>
+            </li>
+            <li>
+              <a href="">TERMS OF SERVICE</a>
+            </li>
+            <li>
+              <a href="">PRIVACY POLICY</a>
+            </li>
+          </ul>
+          <p class="copyright-text">Copyright &#9400; Fashion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  {%schema%}
+
+  {
+    "name":"Footer",
+
+     "settings":[
+        
+          {
+           "type":"text",
+            "id":"facebook",
+            "label":"Facebook"  
+          },
+          
+          {
+           "type":"text",
+            "id":"insta",
+            "label":"Instagram"  
+          },
+          
+          {
+           "type":"text",
+            "id":"twitter",
+            "label":"Twitter"  
+          },
+          
+          {
+           "type":"text",
+            "id":"pin",
+            "label":"Pinterest"  
+          }
+
+     ]
+     
+
+
+
+  }
+
+  {%endschema%}  
