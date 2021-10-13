@@ -1,1 +1,79 @@
-<h2>footer </h2>
+<footer class="footer section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="social-media">
+            {% for block in section.settings.blocks %}
+              <li>
+                <a href="{{block.settings.smedia}}">
+                  <i class="{{block.settings.icon_name}}"></i>
+                </a>
+              </li>
+            {% endfor %}
+           
+           <!--  <li>
+              <a href="">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </li> -->
+          </ul>
+          <ul class="footer-menu">
+            <li>
+              <a href="">Contact</a>
+            </li>
+            <li>
+              <a href="">SHIPPING</a>
+            </li>
+            <li>
+              <a href="">TERMS OF SERVICE</a>
+            </li>
+            <li>
+              <a href="">PRIVACY POLICY</a>
+            </li>
+          </ul>
+          <p class="copyright-text">Copyright &#9400; Fashion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  {%schema%}
+
+  {
+    "name":"Footer",
+     "blocks":[
+       {
+        "name":"Social links",
+         "type":"url",
+         "settings":[
+           {
+            "type":"url",
+             "id":"smedia",
+             "label":"Social media links"  
+           },
+           {
+            "type":"text",
+             "id":"icon_name",
+             "label":"Font-awesome class"  
+           }
+         ]
+
+       }
+
+
+
+     ]
+  }
+
+  {%endschema%}  
