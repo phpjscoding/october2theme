@@ -4,45 +4,43 @@
         <div class="col-md-12">
           <ul class="social-media">
 
+
+            {% if section.settings.fb %}
+            <li>
+              <a href="section.settings.fb">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+            </li>
+              
+            {% endif %}
+
+            {% if section.settings.insta %}
+               <li>
+              <a href="section.settings.insta ">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            {% endif %}
            
-           {% if section.settings.facebook %}
-             <li>
-               <a href=" {{section.settings.facebook}} ">
-                 <i class="fa fa-facebook f"></i>
-               </a>
-             </li>
-           {% endif %}
-
-           {% if sections.settings.insta %}
-             <li>
-               <a href="{{section.settings.insta}}">
-                 <i class="fa fa-instagram"></i>
-               </a>
-             </li>
-
-           {% endif %}
-
-
-           {% if section.settings.twitter %}
+            {% if section.settings.twitter %}
               <li>
-              <a href="{{section.settings.twitter}}">
+              <a href="section.settings.twitter">
                 <i class="fa fa-twitter"></i>
               </a>
             </li>
-           {% endif %}
+            {% endif %}
 
-           {% if section.settings.pin %}
-             <li>
-              <a href="{{section.settings.pin}}">
+
+            {% if section.settings.pin %}
+              <li>
+              <a href="section.settings.pin">
                 <i class="fa fa-pinterest"></i>
               </a>
             </li>
+            {% endif %}
 
-           {% endif %}
 
-               
-           
-          
+
           </ul>
           <ul class="footer-menu">
             <li>
@@ -64,43 +62,31 @@
     </div>
   </footer>
 
-
   {%schema%}
-
   {
-    "name":"Footer",
+    "name":"Social links",
+    "settings":[
+      {
+        "type":"url",
+         "id":"fb",
+          "label":"Facebook"
+      },
+       {
+        "type":"url",
+         "id":"insta",
+          "label":"Instagram"
+      },
+       {
+        "type":"url",
+         "id":"twitter",
+          "label":"Twitter"
+      },
+       {
+        "type":"url",
+         "id":"pin",
+          "label":"Pinterest"
+      }
 
-     "settings":[
-        
-          {
-           "type":"text",
-            "id":"facebook",
-            "label":"Facebook"  
-          },
-          
-          {
-           "type":"text",
-            "id":"insta",
-            "label":"Instagram"  
-          },
-          
-          {
-           "type":"text",
-            "id":"twitter",
-            "label":"Twitter"  
-          },
-          
-          {
-           "type":"text",
-            "id":"pin",
-            "label":"Pinterest"  
-          }
-
-     ]
-     
-
-
-
+    ]
   }
-
-  {%endschema%}  
+  {%endschema%}
