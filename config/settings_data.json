@@ -11,6 +11,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "c6a8f657-f8be-458c-812e-770b3ab075e1": {
+            "type": "url",
+            "settings": {
+              "smedia": "https:\/\/facebook.com",
+              "icon_name": "fa fa-instagram"
+            }
+          }
+        },
+        "block_order": [
+          "c6a8f657-f8be-458c-812e-770b3ab075e1"
+        ],
         "settings": {
         }
       }

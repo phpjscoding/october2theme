@@ -3,6 +3,7 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="social-media">
+<<<<<<< HEAD
            
            {% if section.settings.facebook %}
              <li>
@@ -38,6 +39,31 @@
             </li>
 
            {% endif %}
+=======
+            {% for block in section.settings.blocks %}
+              <li>
+                <a href="{{block.settings.smedia}}">
+                  <i class="{{block.settings.icon_name}}"></i>
+                </a>
+              </li>
+            {% endfor %}
+           
+           <!--  <li>
+              <a href="">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </li> -->
+>>>>>>> 07281d32be9891276a8b84f75706a5604c008b8a
           </ul>
           <ul class="footer-menu">
             <li>
@@ -64,6 +90,7 @@
 
   {
     "name":"Footer",
+<<<<<<< HEAD
      "settings":[
         
           {
@@ -92,6 +119,30 @@
 
      ]
      
+=======
+     "blocks":[
+       {
+        "name":"Social links",
+         "type":"url",
+         "settings":[
+           {
+            "type":"url",
+             "id":"smedia",
+             "label":"Social media links"  
+           },
+           {
+            "type":"text",
+             "id":"icon_name",
+             "label":"Font-awesome class"  
+           }
+         ]
+
+       }
+
+
+
+     ]
+>>>>>>> 07281d32be9891276a8b84f75706a5604c008b8a
   }
 
   {%endschema%}  
