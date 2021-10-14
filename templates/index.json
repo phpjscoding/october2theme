@@ -1,20 +1,5 @@
 {
   "sections": {
-    "product_category": {
-      "type": "product-category",
-      "settings": {
-      }
-    },
-    "news_letter": {
-      "type": "news-letter",
-      "settings": {
-      }
-    },
-    "trending_products": {
-      "type": "trending-products",
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -42,6 +27,38 @@
         "8333e516-7539-4e80-b70e-8799faaa6383",
         "ba9b2b9e-97de-4db8-b497-88d3444ad518"
       ],
+      "settings": {
+      }
+    },
+    "product_category": {
+      "type": "product-category",
+      "settings": {
+        "title_color": "#000000",
+        "subtitle_color": "#000000",
+        "title": "Product category",
+        "product_link_1": "",
+        "product_image_1": "shopify:\/\/shop_images\/coffee-s-ready.jpg",
+        "product_title_1": "Product title demo",
+        "product_subtitle_1": "Product sub title demo",
+        "product_link_2": "",
+        "product_image_2": "shopify:\/\/shop_images\/coffee-and-cake.jpg",
+        "product_title_2": "Product title demo",
+        "product_subtitle_2": "Product sub title demo",
+        "product_link_3": "",
+        "product_image_3": "shopify:\/\/shop_images\/black-kettle-and-pour-over-coffee.jpg",
+        "product_title_3": "Product title demo",
+        "product_subtitle_3": "Product sub title demo"
+      }
+    },
+    "trending_products": {
+      "type": "trending-products",
+      "settings": {
+        "featured_collection": "",
+        "cols": 3
+      }
+    },
+    "news_letter": {
+      "type": "news-letter",
       "settings": {
       }
     }
