@@ -53,8 +53,8 @@
     "trending_products": {
       "type": "trending-products",
       "settings": {
-        "featured_collection": "",
-        "cols": 3
+        "featured_collection": "men",
+        "cols": 6
       }
     },
     "news_letter": {
